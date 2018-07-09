@@ -1,0 +1,17 @@
+#! /usr/bin/ruby -w
+
+#Requirements
+#Nmap a range and save as XML, grepable, and normal outputs
+
+#Syntax Skeleton
+#nmap <ip range 1> <ip range 2> -oA task1
+
+iprange1 = "XXX.XXX.XXX.XXX"
+iprange2 = "XXX.XXX.XXX.XXX"
+
+exec("nmap #{iprange1} #{iprange2} -oA task1")
+
+#Credits
+#https://nmap.org/book/man-output.html
+#Stackoverflow
+
