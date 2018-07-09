@@ -2,7 +2,7 @@
 require 'optparse'
 
 #Requirements
-#Parse IP addresses from previous
+#Parse port numbers from previous
 #Use exception handling when necessary
 #add a help page
 
